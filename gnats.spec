@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://sources.redhat.com/pub/gnats/snapshots/%{name}-%{version}.tar.gz
+# Source0-md5:	7a3fac7196a3179c69d7d348b1ac4dcc
 URL:		http://sources.redhat.com/gnats/
 BuildRequires:	awk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
