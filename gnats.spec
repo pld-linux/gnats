@@ -70,14 +70,12 @@ ln -s $RPM_BUILD_ROOT%{_datadir}/xemacs/lisp $RPM_BUILD_ROOT%{_datadir}/emacs/li
 	GNATS_ROOT=$RPM_BUILD_ROOT%{_datadir}/gnats/gnats-db \
 	install-gnats-arch-indep
 
-gzip -9nf doc/{BETA,PROBLEMS,README,TODO,UPGRADE}
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/*.gz
+%doc doc/{BETA,PROBLEMS,README,TODO,UPGRADE}
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man8/*
 
