@@ -54,7 +54,7 @@ Raportami o B³êdach - szkielet bazy.
 %configure \
 	--with-full-gnats \
 	--with-gnats-root=%{_var}/lib/gnats
-	
+
 %{__make}
 
 %install
