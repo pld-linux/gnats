@@ -1,3 +1,6 @@
+# TODO:
+# - update to 4.0+
+# - SECURITY: http://securitytracker.com/alerts/2004/Jun/1010579.html
 Summary:	A bug tracking system
 Summary(pl):	System ¶ledzenia b³êdów
 Name:		gnats
