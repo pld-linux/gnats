@@ -33,11 +33,11 @@ GNATS (GNU Problem Report Management System) - System GNU Zarz±dzania
 Raportami o B³êdach. U¿ytkownicy przesy³aj± informacje o problemach za
 pomoc± poczty elektronicznej. GNATS czê¶ciowo automatyzuje ¶ledzenie
 raportów o b³êdach (PR
-- Problem Report) w nastepuj±ce sposoby: organizuj±c raporty w bazê
-  danych oraz informuj±c ludzi odpowiedzialnych o podej¿ewanych b³êdach;
+- Problem Report) w nastêpuj±ce sposoby: organizuj±c raporty w bazê
+  danych oraz informuj±c ludzi odpowiedzialnych o podejrzewanych b³êdach;
   pozwalaj±c na edycjê i odpytywanie bazy oraz dostarczaj±c informacjê o
   archiwalnych b³êdach dla danego problemu. Je¶li instalujesz GNATS
-  bedziesz potrzebowa³ zarówno tego pakietu jak i pakietu gnats-db.
+  bêdziesz potrzebowa³ zarówno tego pakietu jak i pakietu gnats-db.
 
 %package db
 Summary:	The database skeleton for the GNATS bug tracking system
