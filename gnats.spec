@@ -5,9 +5,6 @@ Version:	3.113.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	ftp://sources.redhat.com/pub/gnats/snapshots/%{name}-%{version}.tar.gz
 URL:		http://sources.redhat.com/gnats/
 BuildRequires:	awk
@@ -42,9 +39,6 @@ raportów o b³êdach (PR
 Summary:	The database skeleton for the GNATS bug tracking system
 Summary(pl):	Szkielet bazy dla systemu ¶ledzenia b³êdów GNATS
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 
 %description db
 GNATS (GNU Problem Report Management System) - database skeleton.
