@@ -11,10 +11,9 @@ Group:		Development/Tools
 Source0:	ftp://sources.redhat.com/pub/gnats/snapshots/%{name}-%{version}.tar.gz
 # Source0-md5:	7a3fac7196a3179c69d7d348b1ac4dcc
 URL:		http://www.gnu.org/software/gnats/
-BuildRequires:	awk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_libexecdir	%{_libdir}
+%define		_libexecdir	%{_libdir}
 
 %description
 GNATS (GNU Problem Report Management System) is a bug-tracking tool
