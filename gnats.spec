@@ -2,7 +2,7 @@
 # - update to 4.0+
 # - SECURITY: http://securitytracker.com/alerts/2004/Jun/1010579.html
 Summary:	A bug tracking system
-Summary(pl):	System ¶ledzenia b³êdów
+Summary(pl.UTF-8):   System Å›ledzenia bÅ‚Ä™dÃ³w
 Name:		gnats
 Version:	3.113.1
 Release:	1
@@ -27,28 +27,28 @@ reliable archive of problems for a given program (and their subsequent
 solutions). If you're installing GNATS, you'll need to install both
 the gnats and the gnats-db packages.
 
-%description -l pl
-GNATS (GNU Problem Report Management System) - System GNU Zarz±dzania
-Raportami o B³êdach. U¿ytkownicy przesy³aj± informacje o problemach za
-pomoc± poczty elektronicznej. GNATS czê¶ciowo automatyzuje ¶ledzenie
-raportów o b³êdach (PR
-- Problem Report) w nastêpuj±ce sposoby: organizuj±c raporty w bazê
-  danych oraz informuj±c ludzi odpowiedzialnych o podejrzewanych b³êdach;
-  pozwalaj±c na edycjê i odpytywanie bazy oraz dostarczaj±c informacjê o
-  archiwalnych b³êdach dla danego problemu. Je¶li instalujesz GNATS
-  bêdziesz potrzebowa³ zarówno tego pakietu jak i pakietu gnats-db.
+%description -l pl.UTF-8
+GNATS (GNU Problem Report Management System) - System GNU ZarzÄ…dzania
+Raportami o BÅ‚Ä™dach. UÅ¼ytkownicy przesyÅ‚ajÄ… informacje o problemach za
+pomocÄ… poczty elektronicznej. GNATS czÄ™Å›ciowo automatyzuje Å›ledzenie
+raportÃ³w o bÅ‚Ä™dach (PR
+- Problem Report) w nastÄ™pujÄ…ce sposoby: organizujÄ…c raporty w bazÄ™
+  danych oraz informujÄ…c ludzi odpowiedzialnych o podejrzewanych bÅ‚Ä™dach;
+  pozwalajÄ…c na edycjÄ™ i odpytywanie bazy oraz dostarczajÄ…c informacjÄ™ o
+  archiwalnych bÅ‚Ä™dach dla danego problemu. JeÅ›li instalujesz GNATS
+  bÄ™dziesz potrzebowaÅ‚ zarÃ³wno tego pakietu jak i pakietu gnats-db.
 
 %package db
 Summary:	The database skeleton for the GNATS bug tracking system
-Summary(pl):	Szkielet bazy dla systemu ¶ledzenia b³êdów GNATS
+Summary(pl.UTF-8):   Szkielet bazy dla systemu Å›ledzenia bÅ‚Ä™dÃ³w GNATS
 Group:		Development/Tools
 
 %description db
 GNATS (GNU Problem Report Management System) - database skeleton.
 
-%description db -l pl
-GNATS (GNU Problem Report Management System) - System GNU Zarz±dzania
-Raportami o B³êdach - szkielet bazy.
+%description db -l pl.UTF-8
+GNATS (GNU Problem Report Management System) - System GNU ZarzÄ…dzania
+Raportami o BÅ‚Ä™dach - szkielet bazy.
 
 %prep
 %setup -q
