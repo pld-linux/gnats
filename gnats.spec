@@ -2,7 +2,7 @@
 # - update to 4.0+
 # - SECURITY: http://securitytracker.com/alerts/2004/Jun/1010579.html
 Summary:	A bug tracking system
-Summary(pl.UTF-8):   System śledzenia błędów
+Summary(pl.UTF-8):	System śledzenia błędów
 Name:		gnats
 Version:	3.113.1
 Release:	1
@@ -40,7 +40,7 @@ raportów o błędach (PR
 
 %package db
 Summary:	The database skeleton for the GNATS bug tracking system
-Summary(pl.UTF-8):   Szkielet bazy dla systemu śledzenia błędów GNATS
+Summary(pl.UTF-8):	Szkielet bazy dla systemu śledzenia błędów GNATS
 Group:		Development/Tools
 
 %description db
